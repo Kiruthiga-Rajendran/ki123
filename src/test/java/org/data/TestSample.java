@@ -8,6 +8,8 @@ public class TestSample extends Sample {
 
 int a=10, b=20;
 int c=a+b;
+int d=a/b;
+System.out.println(d);
 System.out.println(c);
 super.method2();
 System.out.println("String");
